@@ -1,0 +1,47 @@
+# Solidity build artifacts
+build/
+artifacts/
+cache/
+
+# Node.js dependencies
+node_modules/
+
+# Hardhat files
+*.env
+.env.local
+.env.*.local
+
+# Truffle files
+truffle-config.js
+truffle.js
+
+# Coverage reports
+coverage/
+coverage.json
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# MacOS system files
+.DS_Store
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# Test-related files
+*.coverage
+*.lcov
+
+# Compiled contracts
+*.abi
+*.bin
+
+# Miscellaneous
+*.log
+*.tmp
+*.swp
+*.swo

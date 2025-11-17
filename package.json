@@ -1,0 +1,14 @@
+{
+    "name": "vulnerable-lending-demo",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+      "drain": "npx hardhat run scripts/drain.js"
+    },
+    "devDependencies": {
+      "hardhat": "^2.14.0",
+      "@nomiclabs/hardhat-ethers": "^2.1.0",
+      "ethers": "^5.7.2"
+    }
+  }
+  

@@ -1,0 +1,11 @@
+require("@nomiclabs/hardhat-ethers");
+
+module.exports = {
+  solidity: "0.8.19",
+  defaultNetwork: "hardhat",
+  networks: {
+    hardhat: {
+      loggingEnabled: false
+    }
+  }
+};
