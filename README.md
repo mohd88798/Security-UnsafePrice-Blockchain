@@ -7,7 +7,7 @@ This project demonstrates:
 
 All three versions run independently using simple commands.
 
-# 🚀 How to Run
+# How to Run
 
 Follow these steps exactly:
 
