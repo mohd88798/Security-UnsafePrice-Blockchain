@@ -3,7 +3,9 @@
     "version": "1.0.0",
     "private": true,
     "scripts": {
-      "drain": "npx hardhat run scripts/drain.js"
+        "vulnerable": "npx hardhat run scripts/run-vulnerable.js",
+        "fix1": "npx hardhat run scripts/run-fix1.js",
+        "fix2": "npx hardhat run scripts/run-fix2.js"
     },
     "devDependencies": {
       "hardhat": "^2.14.0",
